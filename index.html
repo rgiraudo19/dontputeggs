@@ -9,14 +9,14 @@
     </head>
     <body>
         <img src="http://alpestravel.com/wp-content/uploads/2016/08/Early-Bird.png">
-        <h1 style="font-size:36px"> don't put all your eggs in... </h1>
-<p id ="text"> </p>
+        <h1 style="font-size:48px"> don't put all your eggs in... </h1>
+        <p id ="text" style="font-size:36px">one basket.</p>
         
         <button id=advice onclick="GiveAdvice()">advice?</button>
         
         <script>
         function GiveAdvice(){
-            var endings = ["the hand that feeds it","where the heart is","an arm and a leg","the chickens before they hatch","the eye of the beholder","the free lunch","two heads","the present","when the going gets tough"];
+            var endings = ["the hand that feeds it.","where the heart is.","an arm and a leg.","the chickens before they hatch.","the eye of the beholder.","the free lunch.","two heads.","the present.","when the going gets tough."];
             var rand = Math.floor(Math.random() * endings.length);
             document.getElementById("text").innerHTML = endings[rand];
         }
